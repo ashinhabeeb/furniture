@@ -1,0 +1,152 @@
+*{
+    font-family:"Playfair display,serif";
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --x:rgb(50, 9, 9);
+}
+#logo{
+    width: 150px;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+    margin: 0px 20px;
+}
+li i{
+    color: rgb(194, 191, 191);
+}
+#button{
+    background-color:var(--x);
+    color:white
+}
+
+#button:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+@media(max-width:992px){
+    #icon{
+        display: none;
+    }
+}
+
+#main{
+    background-image: url('./images/background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+#welcome{
+    padding-top: 20%;
+    padding-left: 5%;
+}
+#welcome h4{
+    color: white;
+    font-size: 30px;
+}
+#welcome h1{
+    color: white;
+    font-size: 80px;
+}
+@media(max-width:600px){
+    #welcome h1{
+        font-size: 45px;
+    }
+    #welcome h4{
+        font-size: 20px;
+    }
+}
+
+#b1{
+
+    background-color:rgba(11, 5, 5, 0.529);
+    height: 100vh;
+    width: 100%;
+}
+#work{
+    padding-top: 30px;
+    background-image: url('https://img.freepik.com/free-photo/faded-gray-background-with-paint-brush-texture_53876-102740.jpg?w=1060&t=st=1720765026~exp=1720765626~hmac=ce24a099fee5d59e4886f160a5a70c244df1559b0cc569707ff0cffb3b3f8dae');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div .view-button{
+    border-color: var(--x);
+    color: var(--x);
+    margin-left: -15px;
+}
+div .view-button:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+.border-line{
+    border: 5px solid var(--x);
+    height: 500px;
+    width: 100%;
+    
+}
+.border-img{
+    width: 107%;
+    height: 520px;
+    padding-top: 4%;
+    padding-left: 4%;
+   
+}
+#about{
+    background-color: rgb(246, 246, 246);
+    padding: 10% 0px;
+}
+#hr{
+    height: 0.4rem;
+    width: 10rem;
+    background-color: var(--x);
+}
+#about h1{
+    color: var(--x);
+}
+#about p{
+    text-align: justify;
+}
+
+.projGDiv1{
+    position: relative;
+}
+.projGDiv1 img{
+    position: relative;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.projGDiv2{
+    width: 50%;
+    height: 10%;
+    background-color: rgba(30, 26, 26, 0.888);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+    position: absolute;
+    bottom: 0px;
+}
+
+.projGDiv3{
+    width: 70%;
+    height: 15%;
+    background-color: rgba(30, 26, 26, 0.888);
+    display: flex;
+    align-items: center;
+    color: white; 
+    position: absolute;
+    justify-content: center;
+    bottom: 0px; 
+}

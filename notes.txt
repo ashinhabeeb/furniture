@@ -1,0 +1,62 @@
+Git and Github
+--------------
+
+Githib is a cloud based service for software developers that allows developers to store and manage their code.
+
+Features
+--------
+
+-To store code
+-Share code with other developers
+-Can host Websites (project biuld using basic front-end technology)
+-Version control - to store versions
+-Git is a tool to do operations in Github
+
+
+Storages
+--------
+
+git storages - local repository (storage space of git)
+
+github storage - remote repository(storage of github)
+
+
+operations in git
+-----------------
+
+1)push - to add data - from local repository to remote repository - known as uploading
+2)clone - retrieving data from remote repository to local repository - known as downloading the code
+3)pull -  retrieving data - from remote repo to local repo - downloading only the updated code
+
+push
+----
+git add - from local storage to staging area (to track the files to be saved)
+git commit - from staging area to local repo (to save)
+git push - after commiting pushed to remote repository of github
+
+commands
+--------
+git innit - to initialise git repositroy along with staging area.
+git status - to check the status of the files inside the folder.
+git add filename(to add a particular file) / git add . (to add all files together)
+git commit -m "meassage to save the files to git repository/local repository"
+git remote add - to connect git repository with github repository
+    - origin - is a variable which holds url of github repository
+
+
+steps to host a Website
+------------------------
+
+settings pages none to master save
+
+Token Generator
+
+developer settings personal acess tokens - token classsic token -
+
+
+
+asignment 3
+
+travel website
+
+
